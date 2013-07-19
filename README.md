@@ -1,7 +1,7 @@
 Surface
 =========
 
-A PHP library for building HTML table, Surface allows the generation of semantically correct HTML through a fluent and easy to use interface.
+Surface allows the generation of semantically correct HTML tables through a fluent and easy to use interface.
 
 It is designed to be as flexible as possible, and supports attributes and table nesting.
 
@@ -36,9 +36,11 @@ The above would output the following HTML:
 
     <table>
         <thead>
-    		<th>Country</th>
-    		<th>Population</th>
-    		<th>% of world</th>
+			<tr>
+				<th>Country</th>
+				<th>Population</th>
+				<th>% of world</th>
+			</tr>
     	</thead>
     	<tbody>
     		<tr>
@@ -83,13 +85,17 @@ This will generate table HTML making use of the `<tfoot>` element:
 
     <table>
         <thead>
-    		<th>Country</th>
-    		<th>Population</th>
-    		<th>% of world</th>
+			<tr>
+				<th>Country</th>
+				<th>Population</th>
+				<th>% of world</th>
+			</tr>
     	</thead>
     	<tfoot>
-    		<td>Total</td>
-    		<td>Some total figure here</td>
+			<tr>
+				<td>Total</td>
+				<td>Some total figure here</td>
+			</tr>
     	</tfoot>
     	<tbody>
     		<tr>
@@ -163,9 +169,11 @@ This produces the following output:
 
     <table>
         <thead>
-    		<th>Country</th>
-    		<th>Population</th>
-    		<th>% of world</th>
+			<tr>
+				<th>Country</th>
+				<th>Population</th>
+				<th>% of world</th>
+			</tr>
     	</thead>
     	<tbody>
     		<tr>
