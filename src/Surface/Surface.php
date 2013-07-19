@@ -118,12 +118,7 @@ class Surface extends Element implements Renderable
 				$table .= Element::_renderElement(Element::THEAD, 
 					function() use ($head) {
 					
-					$headHtml = '';
-					
-					foreach($head->getData() as $headItem) {
-						$headHtml .= $headItem->render();
-					}
-					return $headHtml;
+					return $head->render();
 				});
 			}
 			
@@ -132,12 +127,7 @@ class Surface extends Element implements Renderable
 				$table .= Element::_renderElement(Element::TFOOT, 
 					function() use ($foot) {
 					
-					$footHtml = '';
-					
-					foreach($foot->getData() as $footItem) {
-						$footHtml .= $footItem->render();
-					}
-					return $footHtml;
+					return $foot->render();
 				});
 			}
 			
