@@ -20,7 +20,7 @@ class Element
 	 * 
 	 * @var array
 	 */
-	static protected $_attributes = array();
+	protected $_attributes = array();
 	
 	/**
 	 * Return all attributes
