@@ -1,5 +1,5 @@
 {
-    "name": "jamesmcfadden/surface",
+    "name": "jamesmcfadden/surface-extended",
     "type": "library",
     "description": "Flexible HTML table generation in PHP",
     "keywords": ["html","php","table"],
