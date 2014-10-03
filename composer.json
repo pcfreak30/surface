@@ -1,13 +1,13 @@
 {
-    "name": "jamesmcfadden/surface-extended",
+    "name": "devyanlab/surface-extended",
     "type": "library",
     "description": "Flexible HTML table generation in PHP",
     "keywords": ["html","php","table"],
     "license": "MIT",
     "authors": [
         {
-            "name": "James McFadden",
-            "homepage": "http://www.jamesmcfadden.co.uk"
+            "name": "Juan Pablo Lozano",
+            "homepage": "http://www.devyanlab.com"
         }
     ],
     "require": {
