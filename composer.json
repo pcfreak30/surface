@@ -1,5 +1,5 @@
 {
-    "name": "devyanlab/surface-extended",
+    "name": "devyanlab/surface",
     "type": "library",
     "description": "Flexible HTML table generation in PHP",
     "keywords": ["html","php","table"],
