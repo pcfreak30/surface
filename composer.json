@@ -17,5 +17,6 @@
         "psr-0": {
             "Surface": "src/"
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
