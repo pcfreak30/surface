@@ -20,7 +20,7 @@ class Surface extends Element implements Renderable
 	/**
 	 * @var array
 	 */
-	protected $_rows;
+	protected $_rows = [];
 	
 	/**
 	 * Construct the table with some attributes
