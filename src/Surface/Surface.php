@@ -35,7 +35,7 @@ class Surface extends Element implements Renderable
 	/**
 	 * Add an array of head items to the table
 	 * 
-	 * @param array|Surface\Row $head
+	 * @param array|\Surface\Row $head
 	 * @return \Surface
 	 */
 	public function setHead($head)
@@ -54,7 +54,7 @@ class Surface extends Element implements Renderable
 	/**
 	 * Add an array of foot items to the table
 	 * 
-	 * @param array|Surface\Row $foot
+	 * @param array|\Surface\Row $foot
 	 * @return \Surface
 	 */
 	public function setFoot($foot)
@@ -70,7 +70,7 @@ class Surface extends Element implements Renderable
 	/**
 	 * Add a row to the table
 	 * 
-	 * @param array|Surface\Row $row
+	 * @param array|\Surface\Row $row
 	 * @return \Surface
 	 */
 	public function addRow($row)
